@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon.ico">
+    <title>Loan Calculator</title>
+    <link rel="stylesheet" href="index.css">
+
+  
+</head>
+
+<body>
+           
+    <div class="nav-menu flex-row">
+        <div  style="display: inline-flex;" class="nav-brand">
+          <h1>  <img src="favicon.ico" alt="Logo"><a href="Index.html" class="text-gray">Milestone<span><sup>TM</sup></span></a></h1>
+         
+        </div>
+        <div class="toggle-collapse">
+            <div class="toggle-icons">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+
+
+
+    
+    <div class="content">
+        <div class="form-content">
+            <h2>Loan Calculator</h2>
+            <form id="loan-form" class="loan-form">
+                <label>Loan Amount</label>
+                <input type="number" id="amount" placeholder="Ksh">
+
+                <label>Interest</label>
+                <input type="number" id="interest" placeholder="%">
+
+                <label>Number of Years</label>
+                <input type="number" id="years">
+
+                <button type="submit">Calculate</button>
+            </form>
+        </div>
+
+        <h2>Calculated Results</h2>
+        <div class="results">
+            <div class="card-1">
+                <p id="monthlyPayment">Ksh</p>
+                <p class="indicators">Monthly Payments</p>
+            </div>
+
+            <div class="card-2">
+                <p id="totalInterest">%</p>
+                <p class="indicators">Total Interest</p>
+
+            </div>
+
+            <div class="card-3">
+                <p id="totalPayment">Ksh</p>
+                <p class="indicators">Total Amount to be Paid</p>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="about-us" data-aos="fade-right" data-aos-delay="200">
+                    <h2>About us</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium quia atque nemo ad modi officiis
+                        iure, autem nulla tenetur repellendus.</p>
+                </div>
+                <div class="newsletter" data-aos="fade-right" data-aos-delay="200">
+                    <h2>Newsletter</h2>
+                    <p>Stay update with our latest</p>
+                    <div class="form-element">
+                        <input type="text" placeholder="Email"><span><i class="fas fa-chevron-right"></i></span>
+                    </div>
+                </div>
+                <div class="instagram" data-aos="fade-left" data-aos-delay="200">
+                    <h2>Instagram</h2>
+                    <div class="flex-row">
+                        <img src="thumb-card3.png" alt="insta1">
+                        <img src="thumb-card4.png" alt="insta2">
+                        <img src="thumb-card5.png" alt="insta3">
+                    </div>
+                    <div class="flex-row">
+                        <img src="thumb-card6.png" alt="insta4">
+                        <img src="thumb-card7.png" alt="insta5">
+                        <img src="thumb-card8.png" alt="insta6">
+                    </div>
+                </div>
+                <div class="follow" data-aos="fade-left" data-aos-delay="200">
+                    <h2>Follow us</h2>
+                    <p>Let us be Social</p>
+                    <div>
+                        <a href="https://web.facebook.com/haimestone.ritchie.5" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/haimestoneritchie/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://twitter.com/haimestone" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://github.com/Richard-Musyoka/" target="_black"><i class="fab fa-github"></i></a>
+                    <a href="https://youtube.com/Haimestone Ritchie" target="_blank"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="rights flex-row">
+                <h4 class="text-gray">
+                    Copyright ©2021 All rights reserved | made by
+                    <a href="https://github.com/Richard-Musyoka/" target="_black">Milestone Inc. <i class="fab fa-github"></i>
+                    </a>
+                </h4>
+            </div>
+            <div class="move-up">
+                <span><i class="fas fa-arrow-circle-up fa-2x"></i></span>
+            </div>
+        </footer>
+    
+    </div>
+
+    
+</body>
+<script src="index.js"></script>
+   <!-- Jquery Library file -->
+   <script src="Jquery3.4.1.min.js"></script>
+
+   <!-- --------- Owl-Carousel js ------------------->
+   <script src="owl.carousel.min.js"></script>
+
+   <!-- ------------ AOS js Library  ------------------------- -->
+   <script src="aos.js"></script>
+
+</html>
